@@ -17,7 +17,7 @@ Download the version that includes the MinGW compiler.
 Example:
 
 ```
-codeblocks-20.03mingw-setup.exe
+codeblocks-25.03mingw-setup.exe
 ```
 
 > **Important:** Choose the installer with **mingw** in its name. It already includes the GCC compiler, so you don't need to install it separately.
@@ -54,11 +54,19 @@ Then click **OK**.
 
 ## Step 5: Verify the Installation
 
-Create a new project:
+Create a new empty file:
 
-**File → New → Project → Console Application → C++**
+** Press CTRL + Shift + N **
 
-Replace the default code with:
+Save the file:
+
+** Press CTRL + S **
+
+** Rename the file as hello.cpp **
+
+Click save
+
+Write this code:
 
 ```cpp
 #include <iostream>
@@ -66,7 +74,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello, World!";
+    cout << "Hello, Gen Z";
     return 0;
 }
 ```
@@ -76,7 +84,7 @@ Press **F9** (Build & Run).
 Expected Output:
 
 ```
-Hello, World!
+Hello, Gen Z
 ```
 
 If you see the output, Code::Blocks has been installed successfully.

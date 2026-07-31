@@ -452,16 +452,47 @@ Take three integers as input and print them in reverse order.
 
 # Practice At Home
 
-Read an integer and print it.
-Read two integers and print them in reverse order.
-Read three numbers and print their sum.
-Read a character and print its ASCII value.
-Read an ASCII value and print the corresponding character.
-Read a name and age, then print a formatted introduction.
-Read five integers and print their average.
-Read a floating-point number and print it with exactly two decimal places.
-Read multiple values (name, age, GPA) and print them neatly.
-Read an integer N and print "You entered: N".
+
+### Problem 1: Echo
+
+Read an integer from the user and print the same integer without making any changes.
+
+### Problem 2: Reverse Order
+
+Read two integers and print them in the opposite order.
+
+### Problem 3: Sum of Three
+
+Read three integers, calculate their total, and print the sum.
+
+### Problem 4: ASCII Value
+
+Read a single character and print its ASCII value.
+
+### Problem 5: ASCII Character
+
+Read an integer representing an ASCII code and print the corresponding character.
+
+### Problem 6: Introduction
+
+Read a person's name and age. Print a short introduction such as `My name is Alice and I am 20 years old.`
+
+### Problem 7: Average of Five
+
+Read five integers, calculate their average, and print the result.
+
+### Problem 8: Two Decimal Places
+
+Read a floating-point number and print it rounded to exactly two digits after the decimal point.
+
+### Problem 9: Student Information
+
+Read a student's name, age, and GPA. Display the information in a clear and readable format.
+
+### Problem 10: You Entered
+
+Read an integer and print the sentence `You entered: N`, where `N` is the given number.
+
 
 ---
 

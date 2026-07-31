@@ -14,7 +14,7 @@ Programming is the process of writing instructions that tell a computer what to 
 Write a program that prints:
 
 ```
-Hello, World!
+Hello, Gen Z
 Welcome to Competitive Programming!
 ```
 

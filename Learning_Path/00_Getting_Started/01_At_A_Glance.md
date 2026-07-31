@@ -71,8 +71,10 @@ Learn the most common techniques used in programming contests.
 - Difference Array
 - Permutation, ( STL: Next_permutation )
 - Two Pointers
+- Modular Arithmetic
 - Greedy Algorithm
 - Dynamic Programming
+- Backtracking ( N-Queens )
 
 ---
 
@@ -102,7 +104,7 @@ Learn algorithms for tree-based problems.
 - DFS on Trees
 - Binary Tree
 - Binary Search Tree
-- Tree Diameter
+- Min Heap, Max Heap
 
 
 Stay consistent, practice regularly, and enjoy the journey.

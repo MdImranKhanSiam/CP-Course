@@ -218,30 +218,6 @@ tuple<int,int,string> t;
 
 ---
 
-# 4. `array`
-
-## Definition
-Fixed-size STL array.
-
-## Why Use It?
-- Slightly faster than vector.
-- Compile-time size.
-
-## When to Use?
-- Small fixed-size collections.
-
-## Syntax
-
-```cpp
-array<int,5> a;
-```
-
-## Practice Problems
-1. CSES – Repetitions
-2. CSES – Increasing Array
-3. Codeforces 231A
-
----
 
 # 5. `deque`
 

@@ -31,15 +31,140 @@ A dynamic array that automatically grows or shrinks as elements are added or rem
 ## Syntax
 
 ```cpp
+vector<int> v;                // Empty vector
+vector<int> v(5);             // Size 5, all elements are 0
+vector<int> v(5, 10);         // Size 5, all elements are 10
+vector<int> v = {1, 2, 3, 4}; // Initialize with values
+```
+
+---
+
+## `push_back()`
+
+Adds an element to the end of the vector.
+
+```cpp
 vector<int> v;
+
+v.push_back(10);
+v.push_back(20);
+
+// v = {10, 20}
+```
+
+---
+
+## `pop_back()`
+
+Removes the last element from the vector.
+
+```cpp
+vector<int> v = {10, 20, 30};
+
+v.pop_back();
+
+// v = {10, 20}
 ```
 
 ## Practice Problems
-1. CSES – Weird Algorithm
-2. CSES – Missing Number
-3. Codeforces 977A – Wrong Subtraction
+1. https://codeboost.online/problems/problem_detail/14/
+2. https://codeboost.online/problems/problem_detail/15/
+3. https://codeboost.online/problems/problem_detail/16/
+4. https://cses.fi/problemset/task/1068
+5. https://codeforces.com/problemset/problem/707/A
 
 ---
+
+# 2. `sort()`
+
+## Definition
+
+`sort()` is an STL algorithm used to arrange elements in ascending or descending order.
+
+## Why Use It?
+
+- Fast and efficient sorting
+- Works with arrays and vectors
+- Frequently used in Competitive Programming
+
+## When to Use?
+
+- Arrange numbers in ascending or descending order
+- Greedy algorithms
+- Binary search
+- Removing duplicates
+- Preparing data for efficient processing
+
+## Time Complexity
+
+| Operation | Complexity |
+|---|---|
+| sort() | O(n log n) |
+
+## Syntax
+
+### Sort in Ascending Order
+
+```cpp
+sort(v.begin(), v.end());
+```
+
+### Sort in Descending Order
+
+```cpp
+sort(v.begin(), v.end(), greater<int>());
+```
+
+---
+
+## Sort a Vector
+
+```cpp
+vector<int> v = {5, 2, 8, 1, 4};
+
+sort(v.begin(), v.end());
+
+// v = {1, 2, 4, 5, 8}
+```
+
+---
+
+## Sort in Descending Order
+
+```cpp
+vector<int> v = {5, 2, 8, 1, 4};
+
+sort(v.begin(), v.end(), greater<int>());
+
+// v = {8, 5, 4, 2, 1}
+```
+
+---
+
+## Sort an Array
+
+```cpp
+int arr[] = {5, 2, 8, 1, 4};
+
+sort(arr, arr + 5);
+
+// arr = {1, 2, 4, 5, 8}
+```
+
+---
+
+## Practice Problems
+
+1. https://codeforces.com/problemset/problem/405/A
+2. https://codeforces.com/problemset/problem/34/B
+3. https://codeforces.com/problemset/problem/977/C
+
+4. https://cses.fi/problemset/task/1084
+5. https://cses.fi/problemset/task/1090
+
+---
+
+
 
 # 2. `pair`
 
@@ -49,11 +174,6 @@ Stores two values together.
 ## Why Use It?
 - Keeps related values together.
 - Useful for coordinates or value-index pairs.
-
-## When to Use?
-- `(x, y)`
-- `(value, index)`
-- Graph edges
 
 ## Time Complexity
 All member access: **O(1)**
@@ -67,6 +187,7 @@ pair<int,int> p;
 ## Practice Problems
 1. CSES – Apartments
 2. CSES – Ferris Wheel
+3. https://codeforces.com/problemset/problem/230/A
 3. Codeforces 158B – Taxi
 
 ---

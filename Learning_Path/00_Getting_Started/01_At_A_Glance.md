@@ -17,7 +17,7 @@ Learn the basics of programming and the C++ language.
 - Arrays
 - Strings
 - Functions
-- Basic Time Complexity Big O Notation
+- Time Complexity Big O Notation
 
 ---
 

@@ -42,15 +42,34 @@ Write a program that prints your name three times using three different `cout` s
 
 ---
 
+
+
+
+
+
+
+
+
+
+
 # Variables & Data Types
 
 Variables are used to store data. Different data types are used to store different kinds of values.
 
 ---
 
-# What is a Variable?
+### Practice Problems
 
-A **variable** is a named location in memory used to store data.
+**Problem 1:**  
+Take an integer, a decimal number, and a character as input, then print them on separate lines.
+
+**Problem 2:**  
+Take two integers as input and print:
+- Their sum
+- Their difference
+- Their product
+
+
 
 ### Syntax
 
@@ -367,19 +386,23 @@ int number2;
 
 ---
 
-# Practice Problems
+# Practice At Home
 
-1. Read an integer and print it.
+1. Input your name and print Hello, <name>!.
 2. Read two integers and print their sum.
-3. Read your name and age, then print them.
+3. Input two floating-point numbers and print their average.
 4. Read a character and print it.
 5. Read a decimal number and print it.
 6. Read a student's name, age, and GPA, then display them.
-7. Swap the values of two variables.
+7. Calculate the area and perimeter of a rectangle.
 8. Read three integers and print their average.
 9. Read a boolean (`0` or `1`) and print it.
 10. Read your city and favorite number, then print a sentence using both.
-
+11. Input an integer and print its square and cube.
+12. Convert centimeters to meters.
+13. Convert Celsius to Fahrenheit.
+14. Swap two variables using a temporary variable.
+15. Swap two variables without using a temporary variable.
 ---
 
 # Summary
@@ -396,18 +419,17 @@ int number2;
   - `bool`
   - `string`
 
-### Practice Problems
-
-**Problem 1:**  
-Take an integer, a decimal number, and a character as input, then print them on separate lines.
-
-**Problem 2:**  
-Take two integers as input and print:
-- Their sum
-- Their difference
-- Their product
-
 ---
+
+
+
+
+
+
+
+
+
+
 
 # Input & Output
 
@@ -427,6 +449,29 @@ Age: ...
 Take three integers as input and print them in reverse order.
 
 ---
+
+# Practice At Home
+
+Read an integer and print it.
+Read two integers and print them in reverse order.
+Read three numbers and print their sum.
+Read a character and print its ASCII value.
+Read an ASCII value and print the corresponding character.
+Read a name and age, then print a formatted introduction.
+Read five integers and print their average.
+Read a floating-point number and print it with exactly two decimal places.
+Read multiple values (name, age, GPA) and print them neatly.
+Read an integer N and print "You entered: N".
+
+---
+
+
+
+
+
+
+
+
 
 # Operators
 
@@ -516,6 +561,56 @@ Take two integers and print:
 
 ---
 
+
+# Practice At Home
+
+### Problem 1: Arithmetic Operations
+
+Read two integers. Print their addition, subtraction, multiplication, integer division, and remainder.
+
+### Problem 3: Remainder
+
+Read two integers and print the remainder when the first number is divided by the second.
+
+### Problem 4: Average
+
+Read three numbers, calculate their average using arithmetic operators, and print it.
+
+### Problem 5: Simple Interest
+
+Read principal, rate, and time. Calculate the simple interest using `(P × R × T) / 100` and print it.
+
+### Problem 6: Divisible by 3 and 5
+
+Read an integer. Print `YES` if it is divisible by both 3 and 5; otherwise print `NO`.
+
+### Problem 7: Range Check
+
+Read an integer and determine whether it lies between 1 and 100 inclusive.
+
+### Problem 8: Larger Number
+
+Read two integers and use the ternary operator (`?:`) to print the larger value.
+
+### Problem 9: Increment and Decrement
+
+Read an integer. Increase it by one, print it, then decrease it by one and print it again.
+
+### Problem 10: Expression Evaluation
+
+Read three integers `a`, `b`, and `c`. Calculate `(a + b) * c` and print the answer.
+
+---
+
+
+
+
+
+
+
+
+
+
 # Conditional Statements (`if`, `else`, `switch`)
 
 Conditional statements allow a program to make decisions based on conditions.
@@ -523,15 +618,76 @@ Conditional statements allow a program to make decisions based on conditions.
 ### Practice Problems
 
 **Problem 1:**  
-Take an integer and print:
-- `Positive`
-- `Negative`
-- `Zero`
+Take an integer input from user. If the integer is even, print Even and if the integer is odd, print Odd
+
+**Problem 2:**  
+Check whether a number is positive, negative, or zero.
 
 **Problem 2:**  
 Take a number from **1 to 7** and print the corresponding day of the week using `switch`.
 
 ---
+
+
+# Practice At Home
+
+### Problem 1: Positive, Negative or Zero
+
+Read an integer. Print `Positive` if it is greater than zero, `Negative` if it is less than zero, otherwise print `Zero`.
+
+### Problem 2: Largest of Two
+
+Read two integers and print the larger number.
+
+### Problem 3: Largest of Three
+
+Read three integers and print the largest among them.
+
+### Problem 4: Pass or Fail
+
+Read a student's marks. Print `Pass` if the marks are at least 40, otherwise print `Fail`.
+
+### Problem 5: Grade Calculator
+
+Read a student's marks and print the grade using the following rules:
+
+- 80–100 → A+
+- 70–79 → A
+- 60–69 → A-
+- 50–59 → B
+- 40–49 → C
+- Below 40 → F
+
+### Problem 6: Leap Year
+
+Read a year. Print `Leap Year` if it is a leap year; otherwise print `Not Leap Year`.
+
+### Problem 7: Vowel or Consonant
+
+Read a lowercase English letter. Print `Vowel` if it is one of `a, e, i, o, u`; otherwise print `Consonant`.
+
+### Problem 8: Number Sign
+
+Read an integer and print whether it is `Positive`, `Negative`, or `Zero` using `if-else`.
+
+### Problem 9: Day of Week
+
+Read a number from 1 to 7 and use `switch` to print the corresponding weekday. Print `Invalid` for any other number.
+
+### Problem 10: Simple Calculator
+
+Read two numbers and an operator (`+`, `-`, `*`, `/`). Use `switch` to perform the operation and print the result.
+
+
+---
+
+
+
+
+
+
+
+
 
 # Loops (`for`, `while`, `do-while`)
 
@@ -546,6 +702,59 @@ Take an integer `N` and print all numbers from **1 to N**.
 Take an integer `N` and print the sum of all numbers from **1 to N**.
 
 ---
+
+
+# Practice At Home
+
+### Problem 1: Print 1 to N
+
+Read an integer `N` and print all numbers from 1 to `N`.
+
+### Problem 2: Print N to 1
+
+Read an integer `N` and print all numbers from `N` down to 1.
+
+### Problem 3: Sum of First N Numbers
+
+Read `N`. Calculate and print the sum of the first `N` natural numbers.
+
+### Problem 4: Multiplication Table
+
+Read an integer and print its multiplication table from 1 to 10.
+
+### Problem 5: Even Numbers
+
+Read `N` and print all even numbers from 1 to `N`.
+
+### Problem 6: Count Digits
+
+Read an integer and count how many digits it contains.
+
+### Problem 7: Reverse a Number
+
+Read an integer and print its digits in reverse order.
+
+### Problem 8: Factorial
+
+Read an integer `N` and calculate `N!`.
+
+### Problem 9: Fibonacci Series
+
+Read `N` and print the first `N` Fibonacci numbers.
+
+### Problem 10: Prime Number
+
+Read an integer and determine whether it is prime.
+
+---
+
+
+
+
+
+
+
+
 
 # Arrays
 
@@ -565,6 +774,59 @@ Take `N` integers and print:
 
 ---
 
+
+# Practice At Home
+
+### Problem 1: Input and Output
+
+Read 5 integers into an array and print them.
+
+### Problem 2: Sum of Array
+
+Read `N` integers and print their sum.
+
+### Problem 3: Find Maximum
+
+Read an array and print its largest element.
+
+### Problem 4: Find Minimum
+
+Read an array and print its smallest element.
+
+### Problem 5: Average of Array
+
+Read an array and print the average of all elements.
+
+### Problem 6: Reverse Array
+
+Read an array and print its elements in reverse order.
+
+### Problem 7: Count Even Numbers
+
+Read an array and count how many elements are even.
+
+### Problem 8: Linear Search
+
+Read an array and a target value. Print `Found` if the value exists; otherwise print `Not Found`.
+
+### Problem 9: Second Largest
+
+Read an array and print the second largest element.
+
+### Problem 10: Frequency of an Element
+
+Read an array and a number. Count how many times the number appears.
+
+---
+
+
+
+
+
+
+
+
+
 # Strings
 
 A string is a sequence of characters used to store text.
@@ -579,6 +841,58 @@ Take a string and print it in reverse.
 
 ---
 
+
+# Practice At Home
+
+### Problem 1: String Length
+
+Read a string and print its length.
+
+### Problem 2: Print Characters
+
+Read a string and print each character on a new line.
+
+### Problem 3: Count Vowels
+
+Read a string and count the number of vowels.
+
+### Problem 4: Count Consonants
+
+Read a string and count the number of consonants.
+
+### Problem 5: Reverse String
+
+Read a string and print it in reverse.
+
+### Problem 6: Palindrome
+
+Read a string and determine whether it is a palindrome.
+
+### Problem 7: Uppercase to Lowercase
+
+Read a string and convert all uppercase letters to lowercase.
+
+### Problem 8: Lowercase to Uppercase
+
+Read a string and convert all lowercase letters to uppercase.
+
+### Problem 9: Count Words
+
+Read a full sentence and count the number of words.
+
+### Problem 10: Compare Strings
+
+Read two strings and print whether they are equal.
+
+---
+
+
+
+
+
+
+
+
 # Functions
 
 A function is a reusable block of code that performs a specific task.
@@ -592,6 +906,56 @@ Write a function that takes two integers and returns their sum.
 Write a function that takes an integer and returns whether it is even or odd.
 
 ---
+
+# Practice At Home
+
+### Problem 1: Print Hello
+
+Write a function that prints `Hello, World!` and call it from `main()`.
+
+### Problem 2: Sum Function
+
+Write a function that takes two integers and returns their sum.
+
+### Problem 3: Maximum Function
+
+Write a function that returns the larger of two integers.
+
+### Problem 4: Even or Odd Function
+
+Write a function that returns whether a number is even.
+
+### Problem 5: Square Function
+
+Write a function that returns the square of a number.
+
+### Problem 6: Factorial Function
+
+Write a function that calculates and returns the factorial of a number.
+
+### Problem 7: Prime Function
+
+Write a function that returns whether a number is prime.
+
+### Problem 8: Swap Function
+
+Write a function that swaps two integers using reference parameters.
+
+### Problem 9: Average Function
+
+Write a function that takes an array and its size, then returns the average of its elements.
+
+### Problem 10: Power Function
+
+---
+
+
+
+
+
+
+
+
 
 # Basic Time Complexity (Big O Notation)
 

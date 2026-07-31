@@ -83,18 +83,18 @@ Learn the most common techniques used in programming contests.
 
 
 ### Topics
-1. Divisibility
-2. Prime Numbers
-3. Sieve of Eratosthenes
-4. Prime Factorization
-5. GCD
-6. LCM
-7. Modular Arithmetic
-8. Binary Exponentiation
-9. Number of Divisors
-10. Divisor Enumeration
-11. Basic Combinatorics
-12. Modular Inverse (Basic)
+- Divisibility
+- Prime Numbers
+- Sieve of Eratosthenes
+- Prime Factorization
+- GCD
+- LCM
+- Modular Arithmetic
+- Binary Exponentiation
+- Number of Divisors
+- Divisor Enumeration
+- Basic Combinatorics
+- Modular Inverse (Basic)
 
 ---
 

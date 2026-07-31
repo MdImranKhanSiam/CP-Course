@@ -6,11 +6,11 @@ Learn the basics of programming and the C++ language. This module builds the fou
 
 # Introduction to Programming
 
-Programming is the process of writing instructions that tell a computer what to do. These instructions are called **programs**.
+Programming is the process of writing instructions that tells a computer what to do. These instructions are called **programs**.
 
 ### Practice Problems
 
-**Problem 1:**  
+**Problem 1:** 
 Write a program that prints:
 
 ```
@@ -18,7 +18,7 @@ Hello, Gen Z
 Welcome to Competitive Programming!
 ```
 
-**Problem 2:**  
+**Problem 2:** 
 Write a program that prints your:
 - Name
 - University
@@ -81,6 +81,73 @@ Take three integers as input and print them in reverse order.
 # Operators
 
 Operators are symbols used to perform mathematical, comparison, and logical operations.
+
+# 1. Arithmetic Operators
+
+Used to perform mathematical calculations.
+
+| Operator | Meaning | Example |
+|----------|---------|---------|
+| `+` | Addition | `a + b` |
+| `-` | Subtraction | `a - b` |
+| `*` | Multiplication | `a * b` |
+| `/` | Division | `a / b` |
+| `%` | Modulus (Remainder) | `a % b` |
+
+---
+
+# 2. Assignment Operators
+
+Used to assign values to variables.
+
+| Operator | Meaning | Example |
+|----------|---------|---------|
+| `=` | Assign | `a = 10` |
+| `+=` | Add and assign | `a += 5` |
+| `-=` | Subtract and assign | `a -= 5` |
+| `*=` | Multiply and assign | `a *= 5` |
+| `/=` | Divide and assign | `a /= 5` |
+| `%=` | Modulus and assign | `a %= 5` |
+
+---
+
+# 3. Comparison (Relational) Operators
+
+Used to compare two values. The result is either `true` or `false`.
+
+| Operator | Meaning | Example |
+|----------|---------|---------|
+| `==` | Equal to | `a == b` |
+| `!=` | Not equal to | `a != b` |
+| `>` | Greater than | `a > b` |
+| `<` | Less than | `a < b` |
+| `>=` | Greater than or equal to | `a >= b` |
+| `<=` | Less than or equal to | `a <= b` |
+
+---
+
+# 4. Logical Operators
+
+Used to combine or negate conditions.
+
+| Operator | Meaning | Example |
+|----------|---------|---------|
+| `&&` | Logical AND | `a && b` |
+| `||` | Logical OR | `a || b` |
+| `!` | Logical NOT | `!a` |
+
+---
+
+# 5. Increment & Decrement Operators
+
+Used to increase or decrease a variable by 1.
+
+| Operator | Meaning | Example |
+|----------|---------|---------|
+| `++` | Increment | `a++`, `++a` |
+| `--` | Decrement | `a--`, `--a` |
+
+---
 
 ### Practice Problems
 

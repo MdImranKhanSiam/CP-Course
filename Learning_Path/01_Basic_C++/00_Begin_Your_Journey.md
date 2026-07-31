@@ -46,10 +46,6 @@ Write a program that prints your name three times using three different `cout` s
 
 Variables are used to store data. Different data types are used to store different kinds of values.
 
-# Variables & Data Types
-
-Variables are used to store data in memory. Every variable has a **name**, a **data type**, and a **value**.
-
 ---
 
 # What is a Variable?

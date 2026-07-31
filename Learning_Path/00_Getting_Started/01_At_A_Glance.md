@@ -78,7 +78,28 @@ Learn the most common techniques used in programming contests.
 
 ---
 
-# Module 4: Graph Theory
+
+# Module 4: Number Theory
+
+
+### Topics
+1. Divisibility
+2. Prime Numbers
+3. Sieve of Eratosthenes
+4. Prime Factorization
+5. GCD
+6. LCM
+7. Modular Arithmetic
+8. Binary Exponentiation
+9. Number of Divisors
+10. Divisor Enumeration
+11. Basic Combinatorics
+12. Modular Inverse (Basic)
+
+---
+
+
+# Module 5: Graph Theory
 
 Understand graph algorithms that appear frequently in contests.
 
@@ -95,7 +116,7 @@ Understand graph algorithms that appear frequently in contests.
 
 ---
 
-# Module 5: Trees
+# Module 6: Trees
 
 Learn algorithms for tree-based problems.
 

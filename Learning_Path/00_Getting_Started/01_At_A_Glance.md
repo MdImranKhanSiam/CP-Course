@@ -1,10 +1,9 @@
-# 🚀 Competitive Programming Guideline
+# Competitive Programming Guideline At A Glance
 
-## 📚 Guideline at a Glance
 
 ---
 
-# 📍 Module 1: C++ Fundamentals
+# Module 1: C++ Fundamentals
 
 Learn the basics of programming and the C++ language.
 
@@ -23,7 +22,7 @@ Learn the basics of programming and the C++ language.
 
 ---
 
-# 📍 Module 2: C++ Standard Template Library (STL)
+# Module 2: C++ Standard Template Library (STL)
 
 Master the most important containers and algorithms used in competitive programming.
 
@@ -58,12 +57,11 @@ Master the most important containers and algorithms used in competitive programm
 - max
 - Next_permutation
 - Bitset
-- 
 
 
 ---
 
-# 📍 Module 3: Problem Solving Techniques
+# Module 3: Problem Solving Techniques
 
 Learn the most common techniques used in programming contests.
 
@@ -79,7 +77,7 @@ Learn the most common techniques used in programming contests.
 
 ---
 
-# 📍 Module 4: Graph Theory
+# Module 4: Graph Theory
 
 Understand graph algorithms that appear frequently in contests.
 
@@ -96,7 +94,7 @@ Understand graph algorithms that appear frequently in contests.
 
 ---
 
-# 📍 Module 5: Trees
+# Module 5: Trees
 
 Learn algorithms for tree-based problems.
 

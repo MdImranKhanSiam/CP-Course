@@ -1,6 +1,5 @@
 # Competitive Programming Guideline At A Glance
 
-
 ---
 
 # Module 1: C++ Fundamentals
@@ -55,7 +54,6 @@ Master the most important containers and algorithms used in competitive programm
 - abs
 - min
 - max
-- Next_permutation
 - Bitset
 
 
@@ -71,9 +69,10 @@ Learn the most common techniques used in programming contests.
 - Recursion
 - Prefix Sum
 - Difference Array
-- Permutation
+- Permutation, ( STL: Next_permutation )
 - Two Pointers
-- Greedy Algorithms
+- Greedy Algorithm
+- Dynamic Programming
 
 ---
 

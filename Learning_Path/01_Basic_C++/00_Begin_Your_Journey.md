@@ -133,7 +133,7 @@ Used to combine or negate conditions.
 | Operator | Meaning | Example |
 |----------|---------|---------|
 | `&&` | Logical AND | `a && b` |
-| `||` | Logical OR | `a || b` |
+| `\|\|` | Logical OR | `a \|\| b` |
 | `!` | Logical NOT | `!a` |
 
 ---

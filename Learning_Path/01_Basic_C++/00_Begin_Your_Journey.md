@@ -2,6 +2,12 @@
 
 Learn the basics of programming and the C++ language. This module builds the foundation needed for problem solving and competitive programming.
 
+### Practice At Home For Beginners
+
+https://www.geeksforgeeks.org/cpp/cpp-programming-examples/
+
+( From Basic C++ Programs To C++ Conversion Programs )
+
 ---
 
 # Introduction to Programming

@@ -36,7 +36,29 @@ Each on a new line.
 
 # Structure of a C++ Program
 
-A C++ program consists of different parts such as headers, the `main()` function, and statements.
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+
+    cin.tie(NULL);
+
+
+    //Write your code here
+
+
+    return 0;
+}
+```
+
+
 
 ### Practice Problems
 

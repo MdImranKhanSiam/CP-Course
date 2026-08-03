@@ -499,7 +499,7 @@ Take two integers and print:
 
 ---
 
-
+<!-- 
 # Practice At Home
 
 ### Problem 1: Arithmetic Operations
@@ -538,7 +538,7 @@ Read an integer. Increase it by one, print it, then decrease it by one and print
 
 Read three integers `a`, `b`, and `c`. Calculate `(a + b) * c` and print the answer.
 
----
+--- -->
 
 
 
@@ -566,7 +566,7 @@ Take a number from **1 to 7** and print the corresponding day of the week using 
 
 ---
 
-
+<!-- 
 # Practice At Home
 
 ### Problem 1: Positive, Negative or Zero
@@ -614,7 +614,7 @@ Read a number from 1 to 7 and use `switch` to print the corresponding weekday. P
 
 ### Problem 10: Simple Calculator
 
-Read two numbers and an operator (`+`, `-`, `*`, `/`). Use `switch` to perform the operation and print the result.
+Read two numbers and an operator (`+`, `-`, `*`, `/`). Use `switch` to perform the operation and print the result. -->
 
 
 ---
@@ -641,7 +641,7 @@ Take an integer `N` and print the sum of all numbers from **1 to N**.
 
 ---
 
-
+<!-- 
 # Practice At Home
 
 ### Problem 1: Print 1 to N
@@ -682,7 +682,7 @@ Read `N` and print the first `N` Fibonacci numbers.
 
 ### Problem 10: Prime Number
 
-Read an integer and determine whether it is prime.
+Read an integer and determine whether it is prime. -->
 
 ---
 
@@ -712,7 +712,7 @@ Take `N` integers and print:
 
 ---
 
-
+<!-- 
 # Practice At Home
 
 ### Problem 1: Input and Output
@@ -753,7 +753,7 @@ Read an array and print the second largest element.
 
 ### Problem 10: Frequency of an Element
 
-Read an array and a number. Count how many times the number appears.
+Read an array and a number. Count how many times the number appears. -->
 
 ---
 
@@ -778,7 +778,7 @@ Take a string as input and print its length.
 Take a string and print it in reverse.
 
 ---
-
+<!-- 
 
 # Practice At Home
 
@@ -823,7 +823,7 @@ Read a full sentence and count the number of words.
 Read two strings and print whether they are equal.
 
 ---
-
+ -->
 
 
 
@@ -844,7 +844,7 @@ Write a function that takes two integers and returns their sum.
 Write a function that takes an integer and returns whether it is even or odd.
 
 ---
-
+<!-- 
 # Practice At Home
 
 ### Problem 1: Print Hello
@@ -883,7 +883,7 @@ Write a function that swaps two integers using reference parameters.
 
 Write a function that takes an array and its size, then returns the average of its elements.
 
-### Problem 10: Power Function
+### Problem 10: Power Function -->
 
 ---
 

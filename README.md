@@ -1,4 +1,4 @@
-# CP-Course
+# CP-Training
 Learn Competitive Programming in C++ through organized lessons, coding techniques, practice sets, weekly contests, and problem lists.
 
 # UGV Competitive Programming Group

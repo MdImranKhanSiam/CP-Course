@@ -14,6 +14,28 @@ https://www.geeksforgeeks.org/cpp/cpp-programming-examples/
 
 Programming is the process of writing instructions that tells a computer what to do. These instructions are called **programs**.
 
+
+---
+
+# Structure of a C++ Program
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    //Start writing your code here
+
+    return 0;
+}
+```
+
+
+
 ### Practice Problems
 
 **Problem 1:** 
@@ -27,36 +49,13 @@ Welcome to Competitive Programming!
 **Problem 2:** 
 Write a program that prints your:
 - Name
+- Semester
+- Student ID
 - University
-- Favorite Programming Language
 
 Each on a new line.
 
 ---
-
-# Structure of a C++ Program
-
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-#define endl "\n"
-
-int main()
-{
-    ios_base::sync_with_stdio(false);
-
-    cin.tie(NULL);
-
-
-    //Write your code here
-
-
-    return 0;
-}
-```
 
 
 

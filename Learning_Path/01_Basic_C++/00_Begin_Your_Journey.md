@@ -541,8 +541,101 @@ Read three integers `a`, `b`, and `c`. Calculate `(a + b) * c` and print the ans
 --- -->
 
 
+### Source Code:
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int a = 7, b = 3;
+
+    cout << "a: " << a << endl;
+
+    cout << "b: " << b << endl;
+
+    cout << endl;
+
+    // Arithmetic Operators
+
+    cout << "a + b: " << a + b << endl;
+    cout << "a - b: " << a - b << endl;
+    cout << "a * b: " << a * b << endl;
+    cout << "a / b: " << a / b << endl;
+    cout << "a % b: " << a % b << endl;
+
+    cout << endl;
 
 
+    // Comparison Operators
+
+    cout << "a == b: " << (a == b) << endl;
+    cout << "a != b: " << (a != b) << endl;
+    cout << "a > b: " << (a > b) << endl;
+    cout << "a < b: " << (a < b) << endl;
+    cout << "a >= b: " << (a >= b) << endl;
+    cout << "a <= b: " << (a <= b) << endl;
+
+    cout << endl;
+
+
+    // Logical Operators
+
+    cout << "(a < b) && (a > 0): " << ((a < b) && (a > 0)) << endl;
+    cout << "(a > b) || (b > 0): " << ((a > b) || (b > 0)) << endl;
+    cout << "!(a == b): " << !(a == b) << endl;
+
+    cout << endl;
+
+
+    // Increment & Decrement Operators
+
+    a = 15;
+    cout << "a++: " << a++ << endl;
+
+    a = 15;
+    cout << "++a: " << ++a << endl;
+
+    b = 15;
+    cout << "b--: " << b-- << endl;
+
+    b = 15;
+    cout << "--b: " << --b << endl;
+
+    return 0;
+}
+
+```
+
+
+### Output
+```text
+a: 7
+b: 3
+
+a + b: 10
+a - b: 4
+a * b: 21
+a / b: 2
+a % b: 1
+
+a == b: 0
+a != b: 1
+a > b: 1
+a < b: 0
+a >= b: 1
+a <= b: 0
+
+(a < b) && (a > 0): 0
+(a > b) || (b > 0): 1
+!(a == b): 1
+
+a++: 15
+++a: 16
+b--: 15
+--b: 14
+```
 
 
 

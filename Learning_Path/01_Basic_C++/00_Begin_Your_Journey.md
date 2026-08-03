@@ -63,13 +63,11 @@ Each on a new line.
 ### Sample Output
 
 ```text
----Student Information---
-
 Semester: 6th
 Section: B
 University: University Of Global Village
-Total Credits: 120
 CGPA: 3.80
+Total Credits: 120
 ```
 
 ---
@@ -128,6 +126,21 @@ Write a program that prints the following information about a random student usi
 - CGPA
 
 Each on a new line.
+
+
+
+### Sample Output
+
+```text
+---Student Information---
+
+Semester: 6th
+Section: B
+University: University Of Global Village
+Total Credits: 120
+CGPA: 3.80
+```
+
 
 
 ### Source Code:

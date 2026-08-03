@@ -50,12 +50,13 @@ Welcome to Competitive Programming!
 ```
 
 **Problem 1:** 
-Write a program that prints your:
-- Name
+Write a program that prints the following information about a random student:
+
 - Semester
-- Student ID
-- Dream Career
-- Target CGPA
+- Section
+- University
+- Total Credits
+- CGPA
 
 Each on a new line.
 
@@ -71,21 +72,25 @@ using namespace std;
 
 int main()
 {
-    cout << "Name: Md Imran Khan Siam" << endl;
+    cout << "Semester: 6th" << endl;
 
-    cout << "Semester: 8th" << endl;
+    cout << "Section: B" << endl;
 
-    cout << "Student ID: 12221110" << endl;
+    cout << "University: University Of Global Village" << endl;
 
-    cout << "Dream Career: To become a Software Engineer at Google" << endl;
+    cout << "CGPA: 3.80" << endl;
 
-    cout << "Target CGPA: 4.00" << endl;
+    cout << "Total Credits: 120" << endl;
 
     return 0;
 }
 ```
 
 ---
+
+
+
+
 
 
 
@@ -100,15 +105,71 @@ Variables are used to store data. Different data types are used to store differe
 
 **Problem 0:** 
 
-Write a program that takes the following information as input and prints each value on a new line::
+Write a program that takes the following information of a random student as input and prints each value on a new line:
 
-- Name
 - Semester
-- Student ID
-- Dream Career
-- Target CGPA
+- Section
+- University
+- Total Credits
+- CGPA
+
+Each on a new line.
 
 
+### Source Code:
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    int total_credits;
+
+    float cgpa;
+
+    char section;
+
+    string university, semester;
+
+    cout << "Enter Semester: ";
+    cin >> semester;
+
+    cout << "Enter Section: ";
+    cin >> section;
+
+    cout << "Enter University: ";
+    cin.ignore();
+    getline(cin, university);
+
+    cout << "Enter Total Credits: ";
+    cin >> total_credits;
+
+    cout << "Enter CGPA: ";
+    cin >> cgpa;
+
+
+    cout << endl << endl << "Student Information" << endl;
+
+    cout << "Semester: " << semester << endl;
+
+    cout << "Section: " << section << endl;
+
+    cout << "University: " << university << endl;
+
+    cout << "Total Credits: " << total_credits << endl;
+
+    cout << fixed << setprecision(2) << "CGPA: " << cgpa << endl;
+
+    return 0;
+}
+
+```
+
+---
 
 **Problem 2:**  
 Take two integers as input and print:

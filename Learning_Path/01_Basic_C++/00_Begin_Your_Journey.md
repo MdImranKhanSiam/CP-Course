@@ -66,8 +66,8 @@ Each on a new line.
 Semester: 6th
 Section: B
 University: University Of Global Village
-CGPA: 3.80
 Total Credits: 120
+CGPA: 3.80
 ```
 
 ---
@@ -90,9 +90,9 @@ int main()
 
     cout << "University: University Of Global Village" << endl;
 
-    cout << "CGPA: 3.80" << endl;
-
     cout << "Total Credits: 120" << endl;
+
+    cout << "CGPA: 3.80" << endl;
 
     return 0;
 }
@@ -281,6 +281,15 @@ Write a program that takes the following information of a random student as inpu
 - CGPA
 
 Each on a new line.
+
+```text
+Student Information
+Semester: 6th
+Section: B
+University: University Of Global Village
+Total Credits: 120
+CGPA: 3.80
+```
 
 
 ### Source Code:

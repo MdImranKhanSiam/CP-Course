@@ -60,6 +60,20 @@ Write a program that prints the following information about a random student:
 
 Each on a new line.
 
+### Sample Output
+
+```text
+---Student Information---
+
+Semester: 6th
+Section: B
+University: University Of Global Village
+Total Credits: 120
+CGPA: 3.80
+```
+
+---
+
 
 ### Source Code:
 
@@ -100,6 +114,146 @@ int main()
 Variables are used to store data. Different data types are used to store different kinds of values.
 
 ---
+
+### Practice Problems
+
+**Problem 0:** 
+
+Write a program that prints the following information about a random student using necessary variables:
+
+- Semester
+- Section
+- University
+- Total Credits
+- CGPA
+
+Each on a new line.
+
+
+### Source Code:
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    string semester = "6th";
+
+    char section = 'B';
+
+    string university = "University Of Global Village";
+
+    int total_credits = 120;
+
+    float cgpa = 3.80;
+
+
+    cout << "---Student Information---" << endl << endl;
+
+    cout << "Semester: " << semester << endl;
+
+    cout << "Section: " << section << endl;
+
+    cout << "University: " << university << endl;
+
+    cout << "Total Credits: " << total_credits << endl;
+
+    cout << fixed << setprecision(2) << "CGPA: " << cgpa << endl;
+
+    return 0;
+}
+
+```
+
+---
+
+**Problem 2:**  
+Take two integers as input and print:
+- Their sum
+- Their difference
+- Their product
+
+
+
+
+# Variable Naming Rules
+
+✅ Valid
+
+```cpp
+age
+studentName
+_marks
+number5
+total_score
+```
+
+❌ Invalid
+
+```cpp
+5number
+student-name
+my name
+int
+```
+
+Rules:
+
+- Must begin with a letter or `_`
+- Cannot begin with a number
+- Cannot contain spaces
+- Cannot contain most special characters
+- Cannot use C++ keywords
+
+---
+
+
+# Common Data Types Used in Competitive Programming
+
+| Data Type | Typical Use |
+|-----------|-------------|
+| `int` | Most integer values |
+| `long long` | Large integers |
+| `double` | Decimal numbers |
+| `char` | Single characters |
+| `string` | Text |
+| `bool` | Logical values |
+
+---
+
+
+# Practice At Home
+
+1. Input your name and print Hello, <name>!.
+2. Read two integers and print their sum.
+3. Input two floating-point numbers and print their average.
+4. Read a character and print it.
+5. Read a decimal number and print it.
+6. Read a student's name, age, and GPA, then display them.
+7. Calculate the area and perimeter of a rectangle.
+8. Read three integers and print their average.
+9. Read a boolean (`0` or `1`) and print it.
+10. Read your city and favorite number, then print a sentence using both.
+11. Input an integer and print its square and cube.
+12. Convert centimeters to meters.
+13. Convert Celsius to Fahrenheit.
+14. Swap two variables using a temporary variable.
+15. Swap two variables without using a temporary variable.
+---
+
+
+
+
+
+
+
+# Input & Output
+
+Input is used to receive data from the user, and output is used to display results.
 
 ### Practice Problems
 
@@ -166,107 +320,8 @@ int main()
 
     return 0;
 }
-
 ```
 
----
-
-**Problem 2:**  
-Take two integers as input and print:
-- Their sum
-- Their difference
-- Their product
-
-
-
-
-# Variable Naming Rules
-
-✅ Valid
-
-```cpp
-age
-studentName
-_marks
-number1
-total_score
-```
-
-❌ Invalid
-
-```cpp
-1age
-student-name
-my name
-int
-```
-
-Rules:
-
-- Must begin with a letter or `_`
-- Cannot begin with a number
-- Cannot contain spaces
-- Cannot contain most special characters
-- Cannot use C++ keywords
-
----
-
-
-# Common Data Types Used in Competitive Programming
-
-| Data Type | Typical Use |
-|-----------|-------------|
-| `int` | Most integer values |
-| `long long` | Large integers |
-| `double` | Decimal numbers |
-| `char` | Single characters |
-| `string` | Text |
-| `bool` | Logical values |
-
----
-
-
-# Practice At Home
-
-1. Input your name and print Hello, <name>!.
-2. Read two integers and print their sum.
-3. Input two floating-point numbers and print their average.
-4. Read a character and print it.
-5. Read a decimal number and print it.
-6. Read a student's name, age, and GPA, then display them.
-7. Calculate the area and perimeter of a rectangle.
-8. Read three integers and print their average.
-9. Read a boolean (`0` or `1`) and print it.
-10. Read your city and favorite number, then print a sentence using both.
-11. Input an integer and print its square and cube.
-12. Convert centimeters to meters.
-13. Convert Celsius to Fahrenheit.
-14. Swap two variables using a temporary variable.
-15. Swap two variables without using a temporary variable.
----
-
-
-
-
-
-
-
-# Input & Output
-
-Input is used to receive data from the user, and output is used to display results.
-
-### Practice Problems
-
-**Problem 1:**  
-Take your name and age as input, then print:
-
-```
-Name: ...
-Age: ...
-```
-
-**Problem 2:**  
-Take three integers as input and print them in reverse order.
 
 ---
 

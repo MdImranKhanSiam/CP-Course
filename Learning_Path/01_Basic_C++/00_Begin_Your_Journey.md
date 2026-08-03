@@ -28,17 +28,20 @@ using namespace std;
 
 int main()
 {
-    //Start writing your code here
+    cout << "Hello, Gen Z" << endl;
+    
+    cout << "Welcome to Competitive Programming!" << endl;
 
     return 0;
 }
+
 ```
 
-
+---
 
 ### Practice Problems
 
-**Problem 1:** 
+**Problem 0:** 
 Write a program that prints:
 
 ```
@@ -46,35 +49,43 @@ Hello, Gen Z
 Welcome to Competitive Programming!
 ```
 
-**Problem 2:** 
+**Problem 1:** 
 Write a program that prints your:
 - Name
 - Semester
 - Student ID
-- University
+- Dream Career
+- Target CGPA
 
 Each on a new line.
 
+
+### Source Code:
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    cout << "Name: Md Imran Khan Siam" << endl;
+
+    cout << "Semester: 8th" << endl;
+
+    cout << "Student ID: 12221110" << endl;
+
+    cout << "Dream Career: To become a Software Engineer at Google" << endl;
+
+    cout << "Target CGPA: 4.00" << endl;
+
+    return 0;
+}
+```
+
 ---
-
-
-
-### Practice Problems
-
-**Problem 1:**  
-Write a C++ program that prints `Welcome to C++`.
-
-**Problem 2:**  
-Write a program that prints your name three times using three different `cout` statements.
-
----
-
-
-
-
-
-
-
 
 
 
@@ -87,8 +98,17 @@ Variables are used to store data. Different data types are used to store differe
 
 ### Practice Problems
 
-**Problem 1:**  
-Take an integer, a decimal number, and a character as input, then print them on separate lines.
+**Problem 0:** 
+
+Write a program that takes the following information as input and prints each value on a new line::
+
+- Name
+- Semester
+- Student ID
+- Dream Career
+- Target CGPA
+
+
 
 **Problem 2:**  
 Take two integers as input and print:

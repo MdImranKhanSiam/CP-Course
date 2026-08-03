@@ -238,7 +238,7 @@ Rules:
 
 ---
 
-
+<!-- 
 # Practice At Home
 
 1. Input your name and print Hello, <name>!.
@@ -256,7 +256,7 @@ Rules:
 13. Convert Celsius to Fahrenheit.
 14. Swap two variables using a temporary variable.
 15. Swap two variables without using a temporary variable.
----
+--- -->
 
 
 
@@ -356,7 +356,7 @@ int main()
 
 
 ---
-
+<!-- 
 # Practice At Home
 
 
@@ -398,7 +398,7 @@ Read a student's name, age, and GPA. Display the information in a clear and read
 
 ### Problem 10: You Entered
 
-Read an integer and print the sentence `You entered: N`, where `N` is the given number.
+Read an integer and print the sentence `You entered: N`, where `N` is the given number. -->
 
 
 ---
@@ -480,7 +480,7 @@ Used to increase or decrease a variable by 1.
 | `++` | Increment | `a++`, `++a` |
 | `--` | Decrement | `a--`, `--a` |
 
----
+<!-- ---
 
 ### Practice Problems
 
@@ -495,7 +495,7 @@ Take two integers and print:
 **Problem 2:**  
 Take two integers and print:
 - Whether they are equal
-- Whether the first is greater than the second
+- Whether the first is greater than the second -->
 
 ---
 

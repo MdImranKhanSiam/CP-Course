@@ -282,8 +282,18 @@ Write a program that takes the following information of a random student as inpu
 
 Each on a new line.
 
+### Sample Output
+
 ```text
-Student Information
+Enter Semester: 6th
+Enter Section: B
+Enter University: University Of Global Village
+Enter Total Credits: 120
+Enter CGPA: 3.80
+
+
+---Student Information---
+
 Semester: 6th
 Section: B
 University: University Of Global Village

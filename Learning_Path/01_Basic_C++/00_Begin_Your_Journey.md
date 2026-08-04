@@ -4,9 +4,12 @@ Learn the basics of programming and the C++ language. This module builds the fou
 
 ### Practice At Home For Beginners
 
-https://www.geeksforgeeks.org/cpp/cpp-programming-examples/
+https://www.programiz.com/cpp-programming/examples
+(Solve problems starting from Introduction to Arrays and Strings )
 
-( From Basic C++ Programs To C++ Conversion Programs )
+
+https://www.geeksforgeeks.org/cpp/cpp-programming-examples/
+( Solve Problems Starting From Basic C++ Programs To C++ Conversion Programs )
 
 ---
 

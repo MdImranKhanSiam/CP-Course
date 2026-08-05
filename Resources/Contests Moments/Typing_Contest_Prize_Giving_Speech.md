@@ -1,0 +1,1 @@
+[Typing Contest Prize Giving Speech](https://drive.google.com/file/d/1EgfHJSWQolILOBlG_sffbwhqy0HyH_UR/view?usp=sharing)

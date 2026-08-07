@@ -1025,7 +1025,7 @@ Read three integers and print the largest among them.
 2. Click sign up if not signed up yet
 3. Go to problems page
 4. Type the problem id in the search option and solve the problem
-5. Watch the solution only after you've tried solving it yourself first. [Solution](https://codeboost.online/)
+5. Watch the solution only after you've tried solving it yourself first. [Solution](https://github.com/MdImranKhanSiam/CP-Training/tree/main/Resources/CodeBoost%20Problems%20%26%20Solutions/If%20Else%20-%20Loop)
 
 
 

@@ -839,7 +839,7 @@ Loops are used to repeat a block of code multiple times.
 
 ### Practice Problems
 
-**Problem 1 (CodeBoost Problem ID: 22):**  
+**Problem 0 (CodeBoost Problem ID: 22):**  
 
 Take an integer `N` and print all numbers from **1 to N**.
 
@@ -868,7 +868,7 @@ int main()
 
 ```
 
-**Problem 2 (CodeBoost Problem ID: 23):**  
+**Problem 1 (CodeBoost Problem ID: 23):**  
 Take an integer `N` and print the sum of the first `N` natural numbers.
 
 ### Source Code:
@@ -894,6 +894,81 @@ int main()
     }
 
     cout << "Sum of natural numbers: " << sum << endl;
+}
+
+```
+
+
+**Problem 2 (CodeBoost Problem ID: 24):** 
+
+Read an integer N and print its multiplication table from 1 to 10.
+
+
+### Source Code:
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    int n;
+
+    cin >> n;
+
+    for( int i = 1; i <= 10; i++ )
+    {
+        int multiply = n * i;
+
+        cout << n << " x " << i << " = " << multiply << endl;
+    }
+}
+
+```
+
+
+**Problem 1 (CodeBoost Problem ID: 25):** 
+
+You are given a positive integer N. Find and print all prime numbers from 1 to N.
+
+
+### Source Code:
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    int n;
+
+    cin >> n;
+
+    for( int i = 2; i <= n; i++ )
+    {
+        bool is_prime = true;
+
+        for( int j = 2; j <= i/2; j++ )
+        {
+            if (i % j == 0) {
+
+                is_prime = false;
+
+                break;
+            }
+        }
+
+        if (is_prime) {
+
+            cout << i << " is a prime number" << endl;
+        }
+    }
 }
 
 ```

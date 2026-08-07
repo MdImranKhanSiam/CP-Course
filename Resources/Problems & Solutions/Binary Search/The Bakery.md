@@ -1,4 +1,4 @@
-**Problem: [The Bakery](https://codeboost.online/problems/problem_detail/26/)**
+### Problem: [The Bakery](https://codeboost.online/problems/problem_detail/26/)
 
 
 ### Source Code:

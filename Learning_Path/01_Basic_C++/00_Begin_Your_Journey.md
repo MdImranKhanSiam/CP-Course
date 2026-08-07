@@ -651,7 +651,8 @@ Conditional statements allow a program to make decisions based on conditions.
 
 ### Practice Problems
 
-**Problem 1:**  
+**Problem 0 (CodeBoost Problem ID: 20):**  
+
 Take an integer input from user. If the integer is even, print Even and if the integer is odd, print Odd
 
 
@@ -674,7 +675,7 @@ using namespace std;
 
 int main()
 {
-    int a, b;
+    int a;
 
     cin >> a;
 
@@ -691,7 +692,8 @@ int main()
 ```
 
 
-**Problem 2:**  
+**Problem 1 (CodeBoost Problem ID: 21):**  
+
 Check whether a number is positive, negative, or zero.
 
 
@@ -734,9 +736,7 @@ int main()
 }
 ```
 
-**Problem 2:**  
-
-CodeBoost Problem ID: 19
+**Problem 2 (CodeBoost Problem ID: 19):**  
 
 Take a number from **1 to 7** and print the corresponding day of the week using `switch`.
 
@@ -801,9 +801,6 @@ int main()
 <!-- 
 # Practice At Home
 
-### Problem 1: Positive, Negative or Zero
-
-Read an integer. Print `Positive` if it is greater than zero, `Negative` if it is less than zero, otherwise print `Zero`.
 
 ### Problem 2: Largest of Two
 
@@ -865,8 +862,27 @@ Loops are used to repeat a block of code multiple times.
 
 ### Practice Problems
 
-**Problem 1:**  
+**Problem 1 (CodeBoost Problem ID: ):**  
+
+
+
 Take an integer `N` and print all numbers from **1 to N**.
+
+
+
+
+### Sample Output
+
+```text
+
+```
+
+
+### Source Code:
+
+```cpp
+
+```
 
 **Problem 2:**  
 Take an integer `N` and print the sum of all numbers from **1 to N**.

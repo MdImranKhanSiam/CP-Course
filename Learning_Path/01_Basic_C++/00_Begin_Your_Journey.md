@@ -775,56 +775,6 @@ int main()
 
 ---
 
-<!-- 
-# Practice At Home
-
-
-### Problem 2: Largest of Two
-
-Read two integers and print the larger number.
-
-### Problem 3: Largest of Three
-
-Read three integers and print the largest among them.
-
-### Problem 4: Pass or Fail
-
-Read a student's marks. Print `Pass` if the marks are at least 40, otherwise print `Fail`.
-
-### Problem 5: Grade Calculator
-
-Read a student's marks and print the grade using the following rules:
-
-- 80–100 → A+
-- 70–79 → A
-- 60–69 → A-
-- 50–59 → B
-- 40–49 → C
-- Below 40 → F
-
-### Problem 6: Leap Year
-
-Read a year. Print `Leap Year` if it is a leap year; otherwise print `Not Leap Year`.
-
-### Problem 7: Vowel or Consonant
-
-Read a lowercase English letter. Print `Vowel` if it is one of `a, e, i, o, u`; otherwise print `Consonant`.
-
-### Problem 8: Number Sign
-
-Read an integer and print whether it is `Positive`, `Negative`, or `Zero` using `if-else`.
-
-### Problem 9: Day of Week
-
-Read a number from 1 to 7 and use `switch` to print the corresponding weekday. Print `Invalid` for any other number.
-
-### Problem 10: Simple Calculator
-
-Read two numbers and an operator (`+`, `-`, `*`, `/`). Use `switch` to perform the operation and print the result. -->
-
-
----
-
 
 
 
@@ -899,7 +849,49 @@ int main()
 ```
 
 
-**Problem 2 (CodeBoost.online Problem ID: 24):** 
+
+
+**Problem 2 (CodeBoost.online Problem ID: 27):** 
+
+You are given a positive integer N. Find and print the sum of its digits.
+
+
+### Source Code:
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    int n;
+
+    cin >> n;
+
+    int sum = 0;
+
+    while (n > 0) {
+
+        int last_digit = n % 10;
+
+        sum += last_digit;
+
+        n = n / 10;
+    }
+
+    cout << sum << endl;
+}
+
+```
+
+
+
+
+
+**Problem 3 (CodeBoost.online Problem ID: 24):** 
 
 Read an integer N and print its multiplication table from 1 to 10.
 
@@ -930,7 +922,7 @@ int main()
 ```
 
 
-**Problem 3 (CodeBoost.online Problem ID: 25):** 
+**Problem 4 (CodeBoost.online Problem ID: 25):** 
 
 You are given a positive integer N. Find and print all prime numbers from 1 to N.
 
@@ -978,21 +970,11 @@ int main()
 <!-- 
 # Practice At Home
 
-### Problem 1: Print 1 to N
-
-Read an integer `N` and print all numbers from 1 to `N`.
 
 ### Problem 2: Print N to 1
 
 Read an integer `N` and print all numbers from `N` down to 1.
 
-### Problem 3: Sum of First N Numbers
-
-Read `N`. Calculate and print the sum of the first `N` natural numbers.
-
-### Problem 4: Multiplication Table
-
-Read an integer and print its multiplication table from 1 to 10.
 
 ### Problem 5: Even Numbers
 
@@ -1016,10 +998,22 @@ Read `N` and print the first `N` Fibonacci numbers.
 
 ### Problem 10: Prime Number
 
-Read an integer and determine whether it is prime. -->
+Read an integer and determine whether it is prime. 
 
 
 
+# Practice At Home
+
+
+### Problem 2: Largest of Two
+
+Read two integers and print the larger number.
+
+### Problem 3: Largest of Three
+
+Read three integers and print the largest among them.
+
+-->
 
 
 
@@ -1031,17 +1025,23 @@ Read an integer and determine whether it is prime. -->
 2. Click sign up if not signed up yet
 3. Go to problems page
 4. Type the problem id in the search option and solve the problem
+5. Watch the solution only after you've tried solving it yourself first. [Solution](https://codeboost.online/)
+
 
 
 ### Problem ID: 
 
-# 12
-# 11
-# 13
-# 5
-# 12
-# 7
-# 9
+# 28
+# 29
+# 30
+# 31
+# 32
+# 33
+# 34
+# 35
+
+
+
 
 
 

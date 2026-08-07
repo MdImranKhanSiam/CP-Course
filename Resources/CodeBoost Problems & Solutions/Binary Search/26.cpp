@@ -1,9 +1,3 @@
-# Problem: [The Bakery](https://codeboost.online/problems/problem_detail/26/)
-
-
-### Source Code:
-
-```cpp
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -59,4 +53,3 @@ int main()
 
     cout << result << endl;
 }
-```

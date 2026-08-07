@@ -656,13 +656,6 @@ Conditional statements allow a program to make decisions based on conditions.
 Take an integer input from user. If the integer is even, print Even and if the integer is odd, print Odd
 
 
-### Sample Output
-
-```text
-23
-Odd
-```
-
 
 ### Source Code:
 
@@ -698,14 +691,6 @@ Check whether a number is positive, negative, or zero.
 
 
 
-### Sample Output
-
-```text
-5
-Positive
-```
-
-
 ### Source Code:
 
 ```cpp
@@ -739,14 +724,6 @@ int main()
 **Problem 2 (CodeBoost Problem ID: 19):**  
 
 Take a number from **1 to 7** and print the corresponding day of the week using `switch`.
-
-
-### Sample Output
-
-```text
-5
-Wednesday
-```
 
 
 ### Source Code:
@@ -862,30 +839,64 @@ Loops are used to repeat a block of code multiple times.
 
 ### Practice Problems
 
-**Problem 1 (CodeBoost Problem ID: ):**  
-
-
+**Problem 1 (CodeBoost Problem ID: 22):**  
 
 Take an integer `N` and print all numbers from **1 to N**.
 
 
 
+### Source Code:
 
-### Sample Output
+```cpp
+#include <bits/stdc++.h>
 
-```text
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    int n;
+
+    cin >> n;
+
+    for( int i = 1; i <= n; i++ )
+    {
+        cout << i << endl;
+    }
+}
 
 ```
 
+**Problem 2 (CodeBoost Problem ID: 23):**  
+Take an integer `N` and print the sum of the first `N` natural numbers.
 
 ### Source Code:
 
 ```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    int n;
+
+    cin >> n;
+
+    int sum = 0;
+
+    for( int i = 1; i <= n; i++ )
+    {
+        sum += i;
+    }
+
+    cout << "Sum of natural numbers: " << sum << endl;
+}
 
 ```
-
-**Problem 2:**  
-Take an integer `N` and print the sum of all numbers from **1 to N**.
 
 ---
 

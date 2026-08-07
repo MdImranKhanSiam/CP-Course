@@ -930,7 +930,7 @@ int main()
 ```
 
 
-**Problem 1 (CodeBoost.online Problem ID: 25):** 
+**Problem 3 (CodeBoost.online Problem ID: 25):** 
 
 You are given a positive integer N. Find and print all prime numbers from 1 to N.
 
@@ -1017,6 +1017,27 @@ Read `N` and print the first `N` Fibonacci numbers.
 ### Problem 10: Prime Number
 
 Read an integer and determine whether it is prime. -->
+
+
+
+
+
+
+
+
+# Practice At Home From CodeBoost.online
+
+### Problem ID: 
+
+# 12
+# 11
+# 13
+# 5
+# 12
+# 7
+# 9
+
+
 
 ---
 

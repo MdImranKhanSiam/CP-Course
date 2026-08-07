@@ -658,13 +658,35 @@ Take an integer input from user. If the integer is even, print Even and if the i
 ### Sample Output
 
 ```text
-
+23
+Odd
 ```
 
 
 ### Source Code:
 
 ```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    int a, b;
+
+    cin >> a;
+
+    if (a % 2 == 0) {
+
+        cout << "Even" << endl;
+
+    } else {
+
+        cout << "Odd" << endl;
+    }
+}
 
 ```
 
@@ -672,8 +694,107 @@ Take an integer input from user. If the integer is even, print Even and if the i
 **Problem 2:**  
 Check whether a number is positive, negative, or zero.
 
+
+
+### Sample Output
+
+```text
+5
+Positive
+```
+
+
+### Source Code:
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    int a;
+
+    cin >> a;
+
+    if (a > 0) {
+
+        cout << "Positive" << endl;
+
+    } else if (a < 0) {
+
+        cout << "Negative" << endl;
+
+    } else {
+
+        cout << "Zero" << endl;
+    }
+}
+```
+
 **Problem 2:**  
+
+CodeBoost Problem ID: 19
+
 Take a number from **1 to 7** and print the corresponding day of the week using `switch`.
+
+
+### Sample Output
+
+```text
+5
+Wednesday
+```
+
+
+### Source Code:
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define endl "\n"
+
+int main()
+{
+    int a;
+
+    cin >> a;
+
+    switch (a) {
+    case 1:
+        cout << "Saturday";
+        break;
+    case 2:
+        cout << "Sunday";
+        break;
+    case 3:
+        cout << "Monday";
+        break;
+    case 4:
+        cout << "Tuesday";
+        break;
+    case 5:
+        cout << "Wednesday";
+        break;
+    case 6:
+        cout << "Thursday";
+        break;
+    case 7:
+        cout << "Friday";
+        break;
+    default:
+        cout << "None";
+    }
+
+    cout << endl;
+}
+
+```
+
 
 ---
 

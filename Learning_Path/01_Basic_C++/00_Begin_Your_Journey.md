@@ -651,7 +651,7 @@ Conditional statements allow a program to make decisions based on conditions.
 
 ### Practice Problems
 
-**Problem 0 (CodeBoost Problem ID: 20):**  
+**Problem 0 (CodeBoost.online Problem ID: 20):**  
 
 Take an integer input from user. If the integer is even, print Even and if the integer is odd, print Odd
 
@@ -685,7 +685,7 @@ int main()
 ```
 
 
-**Problem 1 (CodeBoost Problem ID: 21):**  
+**Problem 1 (CodeBoost.online Problem ID: 21):**  
 
 Check whether a number is positive, negative, or zero.
 
@@ -721,7 +721,7 @@ int main()
 }
 ```
 
-**Problem 2 (CodeBoost Problem ID: 19):**  
+**Problem 2 (CodeBoost.online Problem ID: 19):**  
 
 Take a number from **1 to 7** and print the corresponding day of the week using `switch`.
 
@@ -839,7 +839,7 @@ Loops are used to repeat a block of code multiple times.
 
 ### Practice Problems
 
-**Problem 0 (CodeBoost Problem ID: 22):**  
+**Problem 0 (CodeBoost.online Problem ID: 22):**  
 
 Take an integer `N` and print all numbers from **1 to N**.
 
@@ -868,7 +868,7 @@ int main()
 
 ```
 
-**Problem 1 (CodeBoost Problem ID: 23):**  
+**Problem 1 (CodeBoost.online Problem ID: 23):**  
 Take an integer `N` and print the sum of the first `N` natural numbers.
 
 ### Source Code:
@@ -899,7 +899,7 @@ int main()
 ```
 
 
-**Problem 2 (CodeBoost Problem ID: 24):** 
+**Problem 2 (CodeBoost.online Problem ID: 24):** 
 
 Read an integer N and print its multiplication table from 1 to 10.
 
@@ -930,7 +930,7 @@ int main()
 ```
 
 
-**Problem 1 (CodeBoost Problem ID: 25):** 
+**Problem 1 (CodeBoost.online Problem ID: 25):** 
 
 You are given a positive integer N. Find and print all prime numbers from 1 to N.
 

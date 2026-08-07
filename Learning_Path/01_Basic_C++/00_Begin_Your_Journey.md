@@ -654,6 +654,21 @@ Conditional statements allow a program to make decisions based on conditions.
 **Problem 1:**  
 Take an integer input from user. If the integer is even, print Even and if the integer is odd, print Odd
 
+
+### Sample Output
+
+```text
+
+```
+
+
+### Source Code:
+
+```cpp
+
+```
+
+
 **Problem 2:**  
 Check whether a number is positive, negative, or zero.
 

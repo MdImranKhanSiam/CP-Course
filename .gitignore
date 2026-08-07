@@ -12,6 +12,7 @@ temp/
 *.lo
 *.o
 *.obj
+temp.md
 
 # Precompiled Headers
 *.gch

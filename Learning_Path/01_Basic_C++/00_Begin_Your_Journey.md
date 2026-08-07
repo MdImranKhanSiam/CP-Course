@@ -1025,7 +1025,13 @@ Read an integer and determine whether it is prime. -->
 
 
 
-# Practice At Home From CodeBoost.online
+# Practice At Home From [CodeBoost.online](https://codeboost.online/)
+
+1. Go to codeboost.online
+2. Click sign up if not signed up yet
+3. Go to problems page
+4. Type the problem id in the search option and solve the problem
+
 
 ### Problem ID: 
 
